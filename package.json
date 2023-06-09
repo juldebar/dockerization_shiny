@@ -3,6 +3,7 @@
   "version": "0.6.0",
   "date": "2023-04-17",
   "dependencies": [
+    {"package": "renv", "version": "0.15.5", "repos": "https://cran.r-project.org"}, 
     {"package": "mapedit", "version": "0.6.0", "repos": "https://cran.r-project.org"}, 
     {"package": "ncdf4", "version": "1.19", "repos": "https://cran.r-project.org"}, 
     {"package": "maps", "version": "3.4.0", "repos": "https://cran.r-project.org"}, 
