@@ -19,7 +19,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ghcr.io/juldebar/dockerization_shiny
+          images: ghcr.io/fdiwg/dockerization_shiny
 
           flavor: latest=true
           tags: |
