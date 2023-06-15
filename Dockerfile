@@ -1,6 +1,6 @@
 FROM rocker/r-ver:4
 
-MAINTAINER Emmanuel Blondel "emmanuel.blondel@fao.org"
+MAINTAINER Julien Barde "julien.barde@ird.fr"
 
 # system libraries of general use
 RUN apt-get update && apt-get install -y \
