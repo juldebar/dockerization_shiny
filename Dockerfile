@@ -38,8 +38,11 @@ RUN apt-get update && apt-get -y install cmake
 RUN install2.r --error --skipinstalled --ncpus -1 remotes
 RUN R -e "install.packages(c('jsonlite','yaml'), repos='https://cran.r-project.org/')"
 # clone app
+
+
+
 RUN git -C /root/ clone https://github.com/juldebar/dockerization_shiny.git && echo "OK!"
-RUN ln -s /root/dockerization_shiny /srv/dockerization_shiny
+RUN ln -s /root/smt-shiny /srv/dockerization_shiny
 # install R app package dependencies
 RUN R -e "source('./srv/dockerization_shiny/install.R')"
 
