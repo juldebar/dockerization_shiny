@@ -36,5 +36,5 @@
     {"package": "shinydashboard", "version": "0.7.2", "repos": "https://cran.r-project.org"},
     {"package": "shinyWidgets", "version": "0.7.6", "repos": "https://cran.r-project.org"},
     {"package": "ggplot2", "version": "3.4.2", "repos": "https://cran.r-project.org"},
-    {"package": "DT", "version": "0.22", "repos": "https://cran.r-project.org"},
+    {"package": "DT", "version": "0.22", "repos": "https://cran.r-project.org"}
 }
