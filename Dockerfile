@@ -44,8 +44,7 @@ RUN R -e "install.packages(c('jsonlite','yaml'), repos='https://cran.r-project.o
 RUN git -C /root/ clone https://github.com/juldebar/dockerization_shiny.git && echo "OK!"
 RUN ln -s /root/smt-shiny /srv/dockerization_shiny
 # install R app package dependencies
-RUN R -e "source('/srv/dockerization_shiny/install.R')"
-
+RUN R -e "source('./srv/dockerization_shiny/install.R')"
 EXPOSE 3838
 
 ENV SMT_LOG=session.log
